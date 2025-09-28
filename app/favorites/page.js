@@ -32,9 +32,7 @@ export function AppProvider({ children }) {
   );
 }
 
-export const useAppContext = () => useContext(AppContext);
-
-import { useAppContext } from "../../context/AppContext"; 
+import { useAppContext } from "../../context/AppContext";
 export default function FavoritesPage() {
   const { favorites, toggleFavorite } = useAppContext(); 
 

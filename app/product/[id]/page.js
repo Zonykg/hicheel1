@@ -1,6 +1,6 @@
 "use client";
 import { useEffect,useState } from "react";
-import { useAppContext } from "../context/AppContext";
+import { useAppContext } from '../../context/AppContext';
 export default function HomePage(){
   const [products,setProducts]=useState([]);
   const {favorites,toggleFavorite}=useAppContext();
