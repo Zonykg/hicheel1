@@ -1,0 +1,13 @@
+body.light {
+  background: rgb(255, 255, 255);
+  color: black;
+}
+
+body.dark {
+  background: #121212;
+  color: rgb(252, 252, 252);
+}
+
+button {
+  cursor: pointer;
+}
